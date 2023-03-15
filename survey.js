@@ -70,7 +70,7 @@ rl.question('What\'s your name? Nicknames are also acceptable :)   ', (answer1) 
               };
             
               setTimeout(() => {
-                process.stdout.write(`LightHouseGPT is generating a fany profile for ${answer1} ... \n \r${spin}      `);
+                process.stdout.write(`LightHouseGPT is generating a fany profile for ${answer1} ...  \r${spin}      `);
               }, 300 * i);
             
             };
